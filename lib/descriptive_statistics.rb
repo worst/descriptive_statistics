@@ -6,4 +6,8 @@ require 'descriptive_statistics/median.rb'
 require 'descriptive_statistics/variance.rb'
 require 'descriptive_statistics/standard_deviation.rb'
 require 'descriptive_statistics/percentile.rb'
+
+require 'descriptive_statistics/frequency_distribution.rb'
+require 'descriptive_statistics/cdf.rb'
+require 'descriptive_statistics/ccdf.rb'
  
