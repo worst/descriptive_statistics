@@ -10,4 +10,4 @@ require 'descriptive_statistics/percentile.rb'
 require 'descriptive_statistics/frequency_distribution.rb'
 require 'descriptive_statistics/cdf.rb'
 require 'descriptive_statistics/ccdf.rb'
- 
+
