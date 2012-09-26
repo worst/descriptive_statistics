@@ -8,6 +8,7 @@ Overview
 
 Examples
 --------
+
 ```
 > require 'descriptive_statistics'
  => true 
@@ -29,6 +30,22 @@ Examples
  => 6.0 
 ```
 
+Alternatively, you can use `DescriptiveStatistics` on individual 
+objects, avoiding a global monkey patch.
+
+```
+> require 'descriptive_statistics/safe'
+ => true
+> data = [2,6,9,3,5,1,8,3,6,9,2]
+ => [2, 6, 9, 3, 5, 1, 8, 3, 6, 9, 2] 
+> data.extend(DescriptiveStatistics)
+ => [2, 6, 9, 3, 5, 1, 8, 3, 6, 9, 2] 
+> data.number
+ => 11.0 
+> data.sum
+ => 54 
+```
+
 Ports
 -----
 [Javascript](http://github.com/FGRibreau/descriptive_statistics)
@@ -38,7 +55,7 @@ Ports
 
 License
 -------
-Copyright (c) 2012 Derrick Parkhurst (derrick.parkhurst@gmail.com)
+Copyright (c) 2012 Derrick Parkhurst (derrick.parkhurst@gmail.com), Gregory Brown (gregory.t.brown@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
