@@ -1,4 +1,4 @@
-module Enumerable
+module DescriptiveStatistics
   def ccdf
     freq_dist = self.frequency_distribution(self)
     sorted_dist = freq_dist.sort {|a, b| b[0].to_f <=> a[0].to_f}

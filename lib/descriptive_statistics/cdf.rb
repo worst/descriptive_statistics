@@ -1,4 +1,4 @@
-module Enumerable
+module DescriptiveStatistics
 
   def cdf
     freq_dist = self.frequency_distribution(self)
