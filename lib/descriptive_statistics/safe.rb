@@ -9,7 +9,8 @@ require 'descriptive_statistics/percentile.rb'
 
 
 # My mods
-requure 'descriptive_statistics/z_score.rb'
+require 'descriptive_statistics/z_score.rb'
+require 'descriptive_statistics/standard_error.rb'
 require 'descriptive_statistics/frequency_distribution.rb'
 require 'descriptive_statistics/cdf.rb'
 require 'descriptive_statistics/ccdf.rb'
